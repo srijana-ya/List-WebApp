@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Winter</title>
+</head>
+
+<body>
+    <div id='maintxt'>
+        Clothes are necessary.
+
+        <form action="/test">
+            <input type="text" id="data" name="data">
+            <input type="submit" value="submit"><br>
+        </form>
+    </div>
+    <ol>
+        {% for i in things: %}
+        <li>
+            {{i}}
+        </li>
+
+        {% endfor %}
+    </ol>
+
+</body>
+
+</html>
